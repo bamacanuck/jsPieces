@@ -36,9 +36,9 @@ function reverse (str) {
 // or... in ES6, below
 
 // function reverse (str) {
-//     var rev = '';
+//     let rev = '';
 
-//     for (char of str) {
+//     for (let char of str) {
 //         rev = char + rev;
 //     } 
 //     // return rev;
