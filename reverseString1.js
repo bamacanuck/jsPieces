@@ -8,4 +8,13 @@ function reverse (str) {
     console.log(rev);
 }
 
+// above: splits given string into array of individual characters,
+// using empty-string separator, uses reverse method for array,
+// and joins the reversed array of characters,
+// creating string "reversal"
+
+// ====================================
+
+// below: example use of function
+
 reverse("everyday");
