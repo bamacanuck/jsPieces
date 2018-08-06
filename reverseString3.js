@@ -5,9 +5,9 @@
 // example function call is with string "everyday"
 
 function reverse (str) {
-    var rev = str.split('').reverse().join('');
-    // return rev;
-    console.log(rev);
+    var rev = str.split('').reduce(() => {
+
+    }, (''));
 }
 
 // above: splits given string into array of individual characters,
