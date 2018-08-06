@@ -8,6 +8,8 @@ function reverse (str) {
     var rev = str.split('').reduce(() => {
 
     }, (''));
+    // reduce method takes function and
+    // starting value as arguments 
 }
 
 // above: splits given string into array of individual characters,
