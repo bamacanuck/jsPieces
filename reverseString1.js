@@ -2,9 +2,9 @@
 // (a string with the same characters in the given string,
 // but in reverse order)
 
-reverse (str) => {
-    const rev = string.split('').reverse().join('');
-    return rev;
+function reverse (str) {
+    var rev = str.split('').reverse().join('');
+    // return rev;
     console.log(rev);
 }
 
