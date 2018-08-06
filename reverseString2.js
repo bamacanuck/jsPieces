@@ -26,9 +26,6 @@ function reverse (str) {
 // str[i] + rev
 // *** rather than ***
 // rev + str[i]
-// using empty-string separator, uses reverse method for array,
-// and joins the reversed array of characters,
-// creating string "reversal"
 
 // =====================================
 
