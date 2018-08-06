@@ -2,6 +2,8 @@
 // (a string with the same characters in the given string,
 // but in reverse order)
 
+// example function call is with string "everyday"
+
 function reverse (str) {
     var rev = str.split('').reverse().join('');
     // return rev;
