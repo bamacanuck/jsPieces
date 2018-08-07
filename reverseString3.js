@@ -2,21 +2,14 @@
 // (a string with the same characters in the given string,
 // but in reverse order)
 
-// example function call is with string "everyday"
+// example function call is with string "weekly"
 
 function reverse (str) {
     var rev = str.split('').reduce((rev, char) => {
 			return char + rev;
         }, (''));
         console.log(rev);
-    // reduce method takes function and
-    // starting value as arguments 
 }
-
-// above: splits given string into array of individual characters,
-// using empty-string separator, uses reverse method for array,
-// and joins the reversed array of characters,
-// creating string "reversal"
 
 // ====================================
 
