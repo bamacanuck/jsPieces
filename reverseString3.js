@@ -7,7 +7,8 @@
 function reverse (str) {
     var rev = str.split('').reduce((rev, char) => {
 			return char + rev;
-		}, (''));
+        }, (''));
+        console.log(rev);
     // reduce method takes function and
     // starting value as arguments 
 }
@@ -21,4 +22,4 @@ function reverse (str) {
 
 // below: example use of function
 
-reverse("everyday");
+reverse("weekly");
