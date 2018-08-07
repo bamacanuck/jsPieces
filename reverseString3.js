@@ -15,4 +15,4 @@ function reverse (str) {
 
 // below: example use of function
 
-reverse("weekly");
+reverse("cba");
