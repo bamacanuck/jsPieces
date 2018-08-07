@@ -22,6 +22,10 @@ function palinCheck (str) {
 // rev is equivalent (===) to str...
 // and accordingly returns CL output of true or false
 
+// as seen in comments above, previous if-else version
+// was refactored to console.log the wanted boolean,
+// with considerably less code
+
 // =====================================
 
 // below: example uses of function
