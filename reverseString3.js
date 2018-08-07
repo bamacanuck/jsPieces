@@ -5,9 +5,9 @@
 // example function call is with string "everyday"
 
 function reverse (str) {
-    var rev = str.split('').reduce(() => {
-
-    }, (''));
+    var rev = str.split('').reduce((rev, char) => {
+			return char + rev;
+		}, (''));
     // reduce method takes function and
     // starting value as arguments 
 }
