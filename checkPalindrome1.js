@@ -3,3 +3,6 @@
 
 // example function call is with string "abba"
 
+function palinCheck (str) {
+    
+} 
