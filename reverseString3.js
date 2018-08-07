@@ -5,7 +5,7 @@
 // example function call is with string "weekly"
 
 function reverse (str) {
-    var rev = str.split('').reduce((rev, char) => {
+    let rev = str.split('').reduce((rev, char) => {
 			return char + rev;
         }, (''));
         console.log(rev);
