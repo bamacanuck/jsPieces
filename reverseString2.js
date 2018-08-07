@@ -10,7 +10,7 @@ function reverse (str) {
 
     for (var i = 0; i < str.length; i++) {
         rev = str[i] + rev;
-        // *** importantly NOT ***
+        // *** importantly NOT *** as noted below
         // rev = rev + str[i];
     } 
     // return rev;
