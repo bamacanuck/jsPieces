@@ -4,14 +4,16 @@
 // example function calls are with strings "abba" and "abbc"
 
 function palinCheck (str) {
-  let rev = str.split('').reverse().join('');
+	let rev = str.split('').reverse().join('');
+	
+	console.log (rev === str);
 
-  if (str === rev) {
-		console.log(true);
-  }
-  else {
-		console.log(false);
-  }
+  // if (str === rev) {
+	// 	console.log(true);
+  // }
+  // else {
+	// 	console.log(false);
+  // }
 }
 
 // =====================================
