@@ -14,5 +14,15 @@ function palinCheck (str) {
   }
 }
 
+// =====================================
+
+// above: reverses given string str, then checks whether
+// rev is equivalent (===) to str...
+// and accordingly returns CL output of true or false
+
+// =====================================
+
+// below: example uses of function
+
 palinCheck("abba");
 palinCheck("abbc");
