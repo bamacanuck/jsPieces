@@ -8,13 +8,17 @@
 // example function call below is with string "ccABBBAcc"
 
 function pluralityChar (str) {
-  charObj = {};
+	const charObj = {};
+	let most = 0;
+	let mostChar = '';
 
   for (let char of str) {
     charObj[char] = charObj[char] + 1 || 1;
 	}
 
-	console.log(charObj);
+	// console.log(charObj);
+
+
 		
 }
 
