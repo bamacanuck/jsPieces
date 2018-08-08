@@ -35,3 +35,10 @@ reverseInt(-0000068453);
 // ONE SUCH BUG...
 // reverseInt(-000000000001000000000000000000068453) yields
 // -42, for instance
+
+// =====================================
+
+// lingering curiosity: parseInt couldn't just be included at tail
+// end of
+// rev = int.toString().split('').reverse().join('');
+//... and I don't understand why
