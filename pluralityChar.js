@@ -8,8 +8,30 @@
 // example function call below is with string "ABBBA"
 
 function pluralityChar (str) {
-    
+    const str = "hey there, you"
     chars = {};
+
+
 }
 
 // above: 
+
+
+
+
+
+
+
+// const str = "hey there, you";
+// const chars = {};
+
+// for (let char of str) {
+// 	if (!chars[char]) {
+//   	chars[char] = 1;
+//   }
+//   else {
+//     chars[char] = chars[char] + 1;
+//   }
+// }
+
+// chars;
