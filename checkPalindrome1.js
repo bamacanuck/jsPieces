@@ -3,7 +3,7 @@
 
 // example function calls are with strings "abba" and "abbc"
 
-function palinCheck (str) {
+function palindCheck (str) {
 	let rev = str.split('').reverse().join('');
 	
 	console.log (rev === str);
@@ -30,5 +30,5 @@ function palinCheck (str) {
 
 // below: example uses of function
 
-palinCheck("abba");
-palinCheck("abbc");
+palindCheck("abba");
+palindCheck("abbc");
