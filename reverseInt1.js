@@ -12,7 +12,8 @@
 // example function call below is with int 35486
 
 function reverseInt (int) {
-    rev = int.toString().split('').reverse().join('').parseInt();
+    rev = int.toString().split('').reverse().join('');
+    rev = parseInt(rev);
     console.log(rev);
 }
 
