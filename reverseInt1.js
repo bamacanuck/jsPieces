@@ -7,6 +7,7 @@
 // 300 input returns 3 - NOT 003
 // 455 input returns 554
 // -13 input returns -31
+// -700 input returns -7
 
 // example function call below is with int 35486
 
