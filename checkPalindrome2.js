@@ -4,16 +4,27 @@
 // example function calls are with strings "abba" and "abbc"
 
 function palindCheck (str) {
-	let rev = str.split('').reverse().join('');
-	
-	console.log (rev === str);
+  let rev = str.split('');
 
-  // if (str === rev) {
-	// 	console.log(true);
+  rev.every(char, i) {
+    (rev[x] === rev [str.length - x - 1])
+  };
+  
+  // if (rev[0] === rev[str.length - 1]) {
+
   // }
-  // else {
-	// 	console.log(false);
+  // and (rev[1] === rev [str.length - 2]) {
+
   // }
+
+  // and (rev[2] === rev [str.length - 3]) {
+
+  // }
+
+  // so (rev[x] === rev [str.length - x - 1])
+	
+	// console.log (rev === str);
+
 }
 
 // =====================================
