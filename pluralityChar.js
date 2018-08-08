@@ -22,12 +22,14 @@ function pluralityChar (str) {
 		if (charObj[char] > most) {
 			most = charObj[char];
 			mostChar = char;
+			// console.log(char + ":" + charObj[char]);
 		}
 	}
-		
+
+	console.log(mostChar + " : " + most);
 }
 
-pluralityChar ("hey there, you");
+pluralityChar ("ccABBBAcc");
 
 // above: 
 
