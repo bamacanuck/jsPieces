@@ -18,7 +18,12 @@ function pluralityChar (str) {
 
 	// console.log(charObj);
 
-
+	for (let char in charObj) {
+		if (charObj[char] > most) {
+			most = charObj[char];
+			mostChar = char;
+		}
+	}
 		
 }
 
