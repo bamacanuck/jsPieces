@@ -7,3 +7,6 @@
 
 // example function call below is with string "ABBBA"
 
+function pluralityChar (str) {
+    
+}
