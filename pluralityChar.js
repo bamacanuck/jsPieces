@@ -18,9 +18,9 @@ function pluralityChar (str) {
 
 
 
+// =====================================
 
-
-
+// below: work-through stuff for building the necessary string-derived object
 
 // const str = "hey there, you";
 // const chars = {};
