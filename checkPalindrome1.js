@@ -8,12 +8,6 @@ function palindCheck (str) {
 	
 	console.log (rev === str);
 
-  // if (str === rev) {
-	// 	console.log(true);
-  // }
-  // else {
-	// 	console.log(false);
-  // }
 }
 
 // =====================================
