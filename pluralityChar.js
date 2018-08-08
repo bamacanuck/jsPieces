@@ -5,19 +5,20 @@
 // "Willis" input returns "i" and "l" (?)
 // "1111s111122211111s111" input returns 1
 
-// example function call below is with string "ABBBA"
+// example function call below is with string "ccABBBAcc"
 
 function pluralityChar (str) {
-    chars = {};
+  charObj = {};
 
-    for (let char of str) {
-        chars[char] = chars[char] + 1 || 1;
-		}
+  for (let char of str) {
+    charObj[char] = charObj[char] + 1 || 1;
+	}
+
+	console.log(charObj);
 		
-		for (let x of chars) {
-			if 
-		}
 }
+
+pluralityChar ("hey there, you");
 
 // above: 
 
