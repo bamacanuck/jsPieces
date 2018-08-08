@@ -8,10 +8,15 @@
 // example function call below is with string "ABBBA"
 
 function pluralityChar (str) {
-    const str = "hey there, you"
     chars = {};
 
-
+    for (let char of str) {
+        chars[char] = chars[char] + 1 || 1;
+		}
+		
+		for (let x of chars) {
+			if 
+		}
 }
 
 // above: 
@@ -33,5 +38,14 @@ function pluralityChar (str) {
 //     chars[char] = chars[char] + 1;
 //   }
 // }
+
+// REFACTORED AS
+
+// const str = "hey there, you";
+// const chars = {};
+
+// for (let char of str) {
+// 	chars[char] = chars[char] + 1 || 1;
+// };
 
 // chars;
