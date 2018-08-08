@@ -10,16 +10,16 @@ function palindCheck (str) {
     console.log(rev[i] === rev[str.length - i - 1]);
   });
 
-// }
+}
 
 // also... without node console.log action
 
 // function palindCheck (str) {
-//   str.split('').every((char, i) => {
+//   return str.split('').every((char, i) => {
 //     return char === str[str.length - i - 1];
 //   });
 
-}
+// }
 
 // =====================================
 
