@@ -9,7 +9,31 @@ function palindCheck (str) {
   rev.every((char, i) => {
     console.log(rev[i] === rev[str.length - i - 1]);
   });
-  
+
+}
+
+// =====================================
+
+// above: reverses given string str, then checks whether
+// every individual (char) element of the array
+// matches its opposite-end counterpart, by calling the
+// every method for the array, with logic
+// (rev[i] === rev [str.length - i - 1])
+// (work-through stuff for this farther down,
+// near bottom of file text)
+
+// =====================================
+
+// below: example uses of function
+
+palindCheck("abba");
+palindCheck("abbc");
+
+
+// =====================================
+
+// below: logic work-through stuff for (rev[i] === rev [str.length - i - 1]) 
+
   // if (rev[0] === rev[str.length - 1]) {
 
   // }
@@ -22,24 +46,3 @@ function palindCheck (str) {
   // }
 
   // so (rev[x] === rev [str.length - x - 1])
-	
-	// console.log (rev === str);
-
-}
-
-// =====================================
-
-// above: reverses given string str, then checks whether
-// rev is equivalent (===) to str...
-// and accordingly returns CL output of true or false
-
-// as seen in comments above, previous if-else version
-// was refactored to console.log the wanted boolean,
-// with considerably less code
-
-// =====================================
-
-// below: example uses of function
-
-palindCheck("abba");
-palindCheck("abbc");
