@@ -6,9 +6,9 @@
 function palindCheck (str) {
   let rev = str.split('');
 
-  rev.every(char, i) {
-    (rev[x] === rev [str.length - x - 1])
-  };
+  rev.every((char, i) => {
+    console.log(rev[i] === rev[str.length - i - 1]);
+  });
   
   // if (rev[0] === rev[str.length - 1]) {
 
