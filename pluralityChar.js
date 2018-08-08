@@ -9,4 +9,7 @@
 
 function pluralityChar (str) {
     
+    chars = {};
 }
+
+// above: 
