@@ -1,3 +1,7 @@
+// the 'scratch pad' file for the directory
+
+
+
 // challenge: for any given string, write a script that will return
 // true if it's a palindrome (the same with the characters reversed)
 
