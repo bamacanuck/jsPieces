@@ -33,8 +33,6 @@ pluralityChar ("ccABBBAcc");
 
 // above: 
 
-
-
 // =====================================
 
 // below: work-through stuff for building the necessary string-derived object
