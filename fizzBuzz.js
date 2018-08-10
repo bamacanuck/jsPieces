@@ -5,3 +5,6 @@
 // and “fizzbuzz” for those integers that are multiples
 // of both three AND five
 
+function fizzBuzz (x) {
+    
+}
