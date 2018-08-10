@@ -26,4 +26,11 @@ fizzBuzz(20);
 
 // above: iterate over list of integers -
 // 1 to, and including, the given integer,
-// 
+// specifying distinct log statements for those
+// A) with no remainder after division by 15,
+// B) after division by 5 (explicitly excluding
+// those cases where it's also evenly
+// divisible by 3), AND
+// C) after division by 3, (explicitly excluding
+// those cases where it's also evenly
+// divisible by 5)
