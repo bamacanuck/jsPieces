@@ -33,4 +33,7 @@ fizzBuzz(20);
 // divisible by 3), AND
 // C) after division by 3, (explicitly excluding
 // those cases where it's also evenly
-// divisible by 5)
+// divisible by 5)...
+// DON'T FORGET TO INCLUDE logging of those
+// integers that are not evenly divisible by
+// either 3 or 5 (or 3 AND 5). 
