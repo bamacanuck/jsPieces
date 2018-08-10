@@ -5,6 +5,8 @@
 // and “FizzBuzz” for those integers that are multiples
 // of both three AND five
 
+// example function call below is with integer "40"
+
 function fizzBuzz (x) {
     for (let i = 1; i <= x; i++) {
         if (i%15 === 0) {
@@ -22,7 +24,7 @@ function fizzBuzz (x) {
     }
 };
 
-fizzBuzz(20);
+fizzBuzz(40);
 
 // above: iterate over list of integers -
 // 1 to, and including, the given integer,
