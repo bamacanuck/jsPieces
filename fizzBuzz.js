@@ -38,4 +38,4 @@ fizzBuzz(40);
 // divisible by 5)...
 // DON'T FORGET TO INCLUDE logging of those
 // integers that are not evenly divisible by
-// either 3 or 5 (or 3 AND 5). 
+// either 3 or 5 (or 3 AND 5).
