@@ -18,6 +18,14 @@ function pluralityChar (str) {
 
 	// console.log(charObj);
 
+	// below: note different syntax distinction
+	// "let ... in ..."
+	// inside actual/deliberate object,
+	// this time...
+	// rather than
+	// "let ... of ..."
+	// of string treated as array
+
 	for (let char in charObj) {
 		if (charObj[char] > most) {
 			most = charObj[char];
