@@ -1,10 +1,11 @@
-// --- Directions
-// Check to see if two provided strings are anagrams of eachother.
-// One string is an anagram of another if it uses the same characters
-// in the same quantity. Only consider characters, not spaces
-// or punctuation.  Consider capital letters to be the same as lower case
-// --- Examples
-//   anagrams('rail safety', 'fairy tales') --> True
-//   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
-//   anagrams('Hi there', 'Bye there') --> False
+// challenge: given any two strings, check
+// whether they are anagrams of each other...
+// disregarding spaces and punctuation marks...
+// with lower-case letters and capitals
+// considered equivalent ... (and matching
+// character quantities, OF COURSE, counts)
+
+// anagrams('rail safety', 'fairy tales') --> True
+// anagrams('RAIL! SAFETY!', 'fairy tales') --> True
+// anagrams('Hi there', 'Bye there') --> False
 
