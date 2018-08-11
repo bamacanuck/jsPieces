@@ -5,7 +5,7 @@
 // considered equivalent ... (and matching
 // character quantities, OF COURSE, counts)
 
-// anagrams('rail safety', 'fairy tales') --> True
-// anagrams('RAIL! SAFETY!', 'fairy tales') --> True
-// anagrams('Hi there', 'Bye there') --> False
+// ('car has', 'a crash') yields True
+// anagrams('ELVIS!', 'Lives?') --> True
+// anagrams('gentleman', 'elegant man') --> False
 
