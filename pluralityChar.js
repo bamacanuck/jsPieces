@@ -29,7 +29,7 @@ function pluralityChar (str) {
 	console.log(mostChar + " : " + most);
 }
 
-	// above: note syntax distinction
+	// above: NOTE SYNTAX DISTINCTION
 	// "let ... in ..."
 	// inside actual/deliberate object,
 	// this time...
