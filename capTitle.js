@@ -6,4 +6,5 @@
 
 // 'the great escape' yields 'The Great Escape'
 // 'michael clayton' yields 'Michael Clayton'
-// '' yields ''
+// 'farmingtown, west virginia' yields 'Farmingtown, West Virginia'
+
