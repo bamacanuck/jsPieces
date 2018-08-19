@@ -35,18 +35,45 @@ function chunkIt (array, size) {
 	return chunked;
 }
 
-console.log (chunkIt ([11, 23, 13, 14, 52, 16, 70], 2));
+console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7], 2));
 
-// get the last item/element in the new 'chunked' array
 
-// ****
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// WELL COMMENTED VERSION BELOW
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-// if said element/item's place in the chunk array is of
-// length equal to the specified/desired chunk length,
-// OR if said element/item does not exist,
+function chunkIt (array, size) {
 
-// add a new inner chunk (or "sub-chunk") to the 'chunked'
-// array, containing the current iteration element/item
-
-// OTHERWISE - add the current iteration element/item to
-// the presently-forming "sub-chunk"
+	//create new empty array
+	
+		const chunked = [];
+	
+		//const array (below) is the given array to be "chunked"
+	
+		//for each item/element in original 'unchunked' array, 
+	
+		for (let item of array) {
+	
+				// get the last item/element in the new 'chunked' array
+				let lastOne = chunked[chunked.length - 1];
+				// if said element/item's place in the chunk array is of
+				// length equal to the specified/desired chunk length,
+				// OR if said element/item does not exist,
+				if (!lastOne || lastOne.length === size) {
+				
+					// add a new inner chunk (or "sub-chunk") to the 'chunked'
+					// array, containing the current iteration element/item
+				
+					chunked.push([item]);
+				}
+	
+				// OTHERWISE - add the current iteration element/item to
+				// the already-forming "sub-chunk"
+	
+				else {
+					lastOne.push(item);
+				}
+		}
+	
+		return chunked;
+	}
