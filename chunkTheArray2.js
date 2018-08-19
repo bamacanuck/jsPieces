@@ -15,6 +15,9 @@
 // ([2, 4, 8, 62, 17], 2)
 // yielding [ [2, 4], [8, 62], [17] ]
 
+// a well-commented version of the solution can be 
+// found, farther down in the document
+
 
 console.log("=============================");
 console.log("");
