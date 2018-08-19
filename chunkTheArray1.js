@@ -11,6 +11,16 @@
 // ([2, 4, 8, 62, 17], 5) yields [[2, 4, 8, 62, 17]]
 // ([2, 4, 8, 62, 17], 10) yields [[2, 4, 8, 62, 17]]
 
+// =======================================================
+
+// display function call with specified example input
+
+console.log("=============================");
+console.log("");
+
+console.log ("function call: (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3))");
+
+console.log("yields result:")
 
 function chunkIt (array, size) {
 
@@ -36,8 +46,6 @@ function chunkIt (array, size) {
 }
 
 console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3));
-
-console.log ("from function call: (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3))");
 
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
