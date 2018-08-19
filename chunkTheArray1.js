@@ -12,18 +12,28 @@
 // ([2, 4, 8, 62, 17], 10) yields [[2, 4, 8, 62, 17]]
 
 
+function chunkIt (array, size) {
+
 //create new empty array
 
-const chunked = [];
+	const chunked = [];
 
-//const array (below) is the given array to be "chunked"
+	//const array (below) is the given array to be "chunked"
 
-//for each item/element in original 'unchunked' array, 
+	//for each item/element in original 'unchunked' array, 
 
-for (let item of array) {
-    let lastOne = chunked[chunked.length - 1];
+	for (let item of array) {
+			let lastOne = chunked[chunked.length - 1];
+			if (!lastOne || lastOne == size) {
+				chunked.push([item]);
+			}
+			else {
+				lastOne.push(item);
+			}
+	}
 }
 
+console.log (chunkIt ([1,2,3,4], 2));
 // get the last item/element in the new 'chunked' array
 
 ****
