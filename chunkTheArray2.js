@@ -69,7 +69,7 @@ function chunkIt (array, size) {
 		// with index and (index + size) as params...
 		// noting that slice is inclusive at the start,
 		// and exclusive at the end...
-		chunked.push((array.slice(index, (index + size))));
+		chunked.push(array.slice(index, (index + size)));
 
 		// each cycle of the while loop, add size to index,
 		// so index is that much greater at the start
