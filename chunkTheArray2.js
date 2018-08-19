@@ -21,9 +21,7 @@ console.log("");
 
 console.log ("function call: (chunkIt ([2, 4, 8, 62, 17], 2))");
 
-console.log("yields result:")
-
-function chunkIt (array, size) {
+console.log("yields result:");
 
 
 function chunkIt (array, size) {
