@@ -17,13 +17,13 @@ function chunkIt (array, size) {
 	let index = 0;
 
 	while (index < array.length) {
-		chunked.push(array.slice(index, (index + 1)));
+		chunked.push((array.slice(index, (index + size))));
 	}
 
 	index = index + size;
 
-	return 
+	return chunked;
 
 }
 
-chunkIt
+chunkIt ([2, 4, 8, 62, 17], 10);
