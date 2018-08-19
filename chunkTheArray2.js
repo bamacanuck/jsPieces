@@ -12,8 +12,19 @@
 // ([2, 4, 8, 62, 17], 10) yields [[2, 4, 8, 62, 17]]
 
 // sample function call is with input
-// ([2, 4, 8, 62, 17], 10)
+// ([2, 4, 8, 62, 17], 2)
 // yielding [ [2, 4], [8, 62], [17] ]
+
+
+console.log("=============================");
+console.log("");
+
+console.log ("function call: (chunkIt ([2, 4, 8, 62, 17], 2))");
+
+console.log("yields result:")
+
+function chunkIt (array, size) {
+
 
 function chunkIt (array, size) {
 
