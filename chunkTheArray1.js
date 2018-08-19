@@ -18,7 +18,7 @@
 console.log("=============================");
 console.log("");
 
-console.log ("function call: (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3))");
+console.log ("function call: (chunkIt ([11, 23, 13, 14, 52, 16, 7, 2], 3))");
 
 console.log("yields result:")
 
@@ -45,7 +45,7 @@ function chunkIt (array, size) {
 	return chunked;
 }
 
-console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3));
+console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7, 2], 3));
 
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
