@@ -24,7 +24,7 @@ function chunkIt (array, size) {
 
 	for (let item of array) {
 			let lastOne = chunked[chunked.length - 1];
-			if (!lastOne || lastOne.length === size) {
+			if (!lastOne | lastOne.length === size) {
 				chunked.push([item]);
 			}
 			else {
@@ -35,7 +35,7 @@ function chunkIt (array, size) {
 	return chunked;
 }
 
-console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7], 2));
+console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3));
 
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
