@@ -11,6 +11,10 @@
 // ([2, 4, 8, 62, 17], 5) yields [[2, 4, 8, 62, 17]]
 // ([2, 4, 8, 62, 17], 10) yields [[2, 4, 8, 62, 17]]
 
+// sample function call is with input
+// ([2, 4, 8, 62, 17], 10)
+// yielding [ [2, 4], [8, 62], [17] ]
+
 function chunkIt (array, size) {
 
 	const chunked = [];
@@ -18,12 +22,15 @@ function chunkIt (array, size) {
 
 	while (index < array.length) {
 		chunked.push((array.slice(index, (index + size))));
+		index = index + size;
 	}
 
-	index = index + size;
+	// for node purposes, the console.log statement
+	// below is our equivalent of:
+	// return chunked;
 
-	return chunked;
+	console.log(chunked);
 
 }
 
-chunkIt ([2, 4, 8, 62, 17], 10);
+chunkIt ([2, 4, 8, 62, 17], 2);
