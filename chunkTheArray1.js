@@ -49,7 +49,7 @@ console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7, 2], 3));
 
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// WELL COMMENTED VERSION BELOW
+// WELL-COMMENTED VERSION BELOW
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 function chunkIt (array, size) {
