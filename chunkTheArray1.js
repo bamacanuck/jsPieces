@@ -24,19 +24,22 @@ function chunkIt (array, size) {
 
 	for (let item of array) {
 			let lastOne = chunked[chunked.length - 1];
-			if (!lastOne || lastOne == size) {
+			if (!lastOne || lastOne.length === size) {
 				chunked.push([item]);
 			}
 			else {
 				lastOne.push(item);
 			}
 	}
+
+	return chunked;
 }
 
-console.log (chunkIt ([1,2,3,4], 2));
+console.log (chunkIt ([11, 23, 13, 14, 52, 16, 70], 2));
+
 // get the last item/element in the new 'chunked' array
 
-****
+// ****
 
 // if said element/item's place in the chunk array is of
 // length equal to the specified/desired chunk length,
