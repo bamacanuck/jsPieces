@@ -18,6 +18,8 @@ const chunked = [];
 
 //for each item/element in original 'unchunked' array,
 
+//const array is given array to be "chunked" 
+
 for (let item of array) {
     let lastOne = chunked[chunked.length - 1];
 }
