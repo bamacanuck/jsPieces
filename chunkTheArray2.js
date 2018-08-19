@@ -11,13 +11,15 @@
 // ([2, 4, 8, 62, 17], 5) yields [[2, 4, 8, 62, 17]]
 // ([2, 4, 8, 62, 17], 10) yields [[2, 4, 8, 62, 17]]
 
-function chunkIt (array, length) {
+function chunkIt (array, size) {
 
 	const chunked = [];
 	let index = 0;
 
 	while (index < array.length) {
-		
+		chunked.push();
 	}
+
+	index = index + size;
 
 }
