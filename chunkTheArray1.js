@@ -16,9 +16,9 @@
 
 const chunked = [];
 
-//for each item/element in original 'unchunked' array,
+//const array (below) is the given array to be "chunked"
 
-//const array is given array to be "chunked" 
+//for each item/element in original 'unchunked' array, 
 
 for (let item of array) {
     let lastOne = chunked[chunked.length - 1];
