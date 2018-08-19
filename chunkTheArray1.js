@@ -37,6 +37,8 @@ function chunkIt (array, size) {
 
 console.log (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3));
 
+console.log ("from function call: (chunkIt ([11, 23, 13, 14, 52, 16, 7], 3))");
+
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // WELL COMMENTED VERSION BELOW
