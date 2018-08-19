@@ -11,3 +11,8 @@
 // ([2, 4, 8, 62, 17], 5) yields [[2, 4, 8, 62, 17]]
 // ([2, 4, 8, 62, 17], 10) yields [[2, 4, 8, 62, 17]]
 
+const chunked = [];
+
+let index = 0;
+
+for (let i of Array.length)
