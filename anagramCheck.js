@@ -9,3 +9,8 @@
 // anagrams('ELVIS!', 'Lives?') --> True
 // anagrams('gentleman', 'elegant man') --> False
 
+function anagramCheck (string1, string2) {
+    
+}
+
+module.exports = anagramCheck;
