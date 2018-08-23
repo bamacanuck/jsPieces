@@ -14,11 +14,12 @@ function anagramCheck (string1, string2) {
 	// object to hold the involved characters
 	const charObj = {};
 
-	
+	for (let char of str) {
+		charObj[char] = charObj[char] + 1 || 1;
+
 }
 
-for (let char of str) {
-	charObj[char] = charObj[char] + 1 || 1;
+
 }
 
 module.exports = anagramCheck;
