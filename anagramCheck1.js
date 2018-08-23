@@ -13,6 +13,12 @@ function anagramCheck (string1, string2) {
 	// like in char-plurality solution, build a new
 	// object to hold the involved characters
 	const charObj = {};
+
+	
+}
+
+for (let char of str) {
+	charObj[char] = charObj[char] + 1 || 1;
 }
 
 module.exports = anagramCheck;
