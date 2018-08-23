@@ -14,7 +14,7 @@ function anagramCheck (string1, string2) {
 	// object to hold the involved characters
 	const charObj = {};
 
-	// iterate over char object
+	// iterate over the char object
 	for (let char of str) {
 		charObj[char] = charObj[char] + 1 || 1;
 
@@ -28,21 +28,21 @@ module.exports = anagramCheck;
 
 // consider char-plurality solution, noted below
 
-function pluralityChar (str) {
-	const charObj = {};
-	let most = 0;
-	let mostChar = '';
+// function pluralityChar (str) {
+// 	const charObj = {};
+// 	let most = 0;
+// 	let mostChar = '';
 
-  for (let char of str) {
-    charObj[char] = charObj[char] + 1 || 1;
-	}
+//   for (let char of str) {
+//     charObj[char] = charObj[char] + 1 || 1;
+// 	}
 
-	// console.log(charObj);
+// 	// console.log(charObj);
 
-	for (let char in charObj) {
-		if (charObj[char] > most) {
-			most = charObj[char];
-			mostChar = char;
-			// console.log(char + ":" + charObj[char]);
-		}
-	}
+// 	for (let char in charObj) {
+// 		if (charObj[char] > most) {
+// 			most = charObj[char];
+// 			mostChar = char;
+// 			// console.log(char + ":" + charObj[char]);
+// 		}
+// 	}
