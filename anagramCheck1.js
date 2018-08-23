@@ -10,7 +10,9 @@
 // anagrams('gentleman', 'elegant man') --> False
 
 function anagramCheck (string1, string2) {
-
+	// like in char-plurality solution, build a new
+	// object to hold the involved characters
+	const charObj = {};
 }
 
 module.exports = anagramCheck;
