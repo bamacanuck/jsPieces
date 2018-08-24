@@ -12,7 +12,7 @@
 // make a character-mapping helper function
 
 function charMapper (str) {
-	
+	const charMap = {};
 }
 
 function anagramCheck (string1, string2) {
