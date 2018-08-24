@@ -14,7 +14,7 @@
 
 
 function charMapper (str) {
-	const charMap = {};
+	let charMap = {};
 
 	// RegExp work to get rid of spaces, punctuation,
 	// and make letter case uniform (lower case)
@@ -42,15 +42,15 @@ function anagramCheck (string1, string2) {
 	const str2Map = charMapper(string2);
 	if (str1Map === str2Map) {
 		// return true;
-		console.log(true);
+		console.log("true");
 	}
 	else {
 		// return false;
-		console.log(false);
+		console.log("false");
 	}
 };
 
-anagramCheck ("abba", "baab");
+anagramCheck("abba", "baab");
 
 // }
 
