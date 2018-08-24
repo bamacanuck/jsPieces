@@ -22,9 +22,9 @@ function charMapper (str) {
 		charMap[char] = (charMap[char] + 1) || 1;
 	};
 
-	return charMap;
+	console.log(charMap);
 
-	// console.log(charMap);
+	return charMap;
 
 	// console.log(str);
 
@@ -33,14 +33,14 @@ function charMapper (str) {
 	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-// charMapper("zZz.sSs");
+charMapper("zZz.sSs.aa");
 
-function anagramCheck (string1, string2) {
+function anagramCheck (strA, strB) {
 	// like in char-plurality solution, build new
 	// objects to hold the involved characters
-	const str1Map = charMapper(string1);
-	const str2Map = charMapper(string2);
-	if (str1Map === str2Map) {
+	const strAMap = charMapper(strA);
+	const strBMap = charMapper(strB);
+	if (strAMap === strBMap) {
 		// return true;
 		console.log("true");
 	}
