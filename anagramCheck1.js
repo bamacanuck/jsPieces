@@ -11,6 +11,8 @@
 
 // make a character-mapping helper function
 
+
+
 function charMapper (str) {
 	const charMap = {};
 
@@ -20,7 +22,9 @@ function charMapper (str) {
 		charMap[char] = (charMap[char] + 1) || 1;
 	};
 
-	console.log(charMap);
+	return charMap;
+
+	// console.log(charMap);
 
 	// console.log(str);
 
@@ -29,14 +33,24 @@ function charMapper (str) {
 	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-charMapper("zZz.sSs");
+// charMapper("zZz.sSs");
 
-// function anagramCheck (string1, string2) {
-// 	// like in char-plurality solution, build a new
-// 	// object to hold the involved characters
-// 	const charObj = {};
+function anagramCheck (string1, string2) {
+	// like in char-plurality solution, build new
+	// objects to hold the involved characters
+	const str1Map = charMapper(string1);
+	const str2Map = charMapper(string2);
+	if (str1Map === str2Map) {
+		// return true;
+		console.log(true);
+	}
+	else {
+		// return false;
+		console.log(false);
+	}
+};
 
-	
+anagramCheck ("abba", "baab");
 
 // }
 
