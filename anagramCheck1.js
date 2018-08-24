@@ -11,7 +11,9 @@
 
 // make a character-mapping helper function
 
-
+function charMapper (str) {
+	
+}
 
 function anagramCheck (string1, string2) {
 	// like in char-plurality solution, build a new
