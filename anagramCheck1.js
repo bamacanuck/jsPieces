@@ -17,7 +17,7 @@ function charMapper (str) {
 	// RegExp work to get rid of spaces, punctuation,
 	// and make letter case uniform (lower case)
 	for (let char of str.replace(/[^\w]/g, "").toLowerCase()) {
-		charMap[char] = (charMap[char] + 1) | 1;
+		charMap[char] = (charMap[char] + 1) || 1;
 	};
 
 	console.log(charMap);
@@ -29,7 +29,7 @@ function charMapper (str) {
 	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-charMapper("eGaDs");
+charMapper("zZz.sSs");
 
 // function anagramCheck (string1, string2) {
 // 	// like in char-plurality solution, build a new
