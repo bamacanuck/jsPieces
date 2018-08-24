@@ -9,6 +9,10 @@
 // anagrams('ELVIS!', 'Lives?') --> True
 // anagrams('gentleman', 'elegant man') --> False
 
+// make a character-mapping helper function
+
+
+
 function anagramCheck (string1, string2) {
 	// like in char-plurality solution, build a new
 	// object to hold the involved characters
