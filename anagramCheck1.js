@@ -16,27 +16,34 @@ function charMapper (str) {
 
 	// RegExp work to get rid of spaces, punctuation,
 	// and make letter case uniform (lower case)
-	str.replace(/[^\w]/g, "").toLowerCase();
+	for (let char of str.replace(/[^\w]/g, "").toLowerCase()) {
+		charMap[char] = (charMap[char] + 1) | 1;
+	};
 
+	console.log(charMap);
+
+	// console.log(str);
 
 	// iterate over string
-	for (let char of str) {
-		charObj[char] = charObj[char] + 1 || 1;
+	// for (let char of str) {
+	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-function anagramCheck (string1, string2) {
-	// like in char-plurality solution, build a new
-	// object to hold the involved characters
-	const charObj = {};
+charMapper("eGaDs");
+
+// function anagramCheck (string1, string2) {
+// 	// like in char-plurality solution, build a new
+// 	// object to hold the involved characters
+// 	const charObj = {};
 
 	
 
-}
+// }
 
 
-}
+// }
 
-module.exports = anagramCheck;
+// module.exports = anagramCheck;
 
 
 // consider char-plurality solution, noted below
