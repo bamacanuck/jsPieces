@@ -13,4 +13,4 @@ function stringCleaner (str) {
 	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-stringCleaner("eGaDs");
+stringCleaner("e!Ga@Ds_|zzzzzzzz");
