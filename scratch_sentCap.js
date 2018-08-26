@@ -14,8 +14,8 @@ for (i = 0; i < words.length; i++) {
 	newArray.push(newWord);
 }
 
-
-  console.log(newArray);
+	let newSentence =	newArray.join(' ');
+  console.log(newSentence);
 
 // console.log(words[i].slice(0,1).toUpperCase());
 // console.log(words[i].slice(1));
