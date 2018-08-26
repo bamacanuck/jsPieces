@@ -10,6 +10,15 @@
 
 // example function call is with string ""
 
+// consider array slice method
+// and also
+// 
+
 function capitalize (str) {
-    
+
+	for (let char in str) {
+		
+	}
 }
+
+// input "our puppy bear"
