@@ -1,6 +1,8 @@
-lecture 32
+lecture 34, after spending some time comparing
+our lecture 33 solution with the one prescribed
+by Grider (both so, in fact, work)
 
-... BUT...
+... BUT ALSO...
 
 work must resume at some point on the
 unfinished anagramCheck1 (and anagramCheck2),
