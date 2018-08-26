@@ -1,1 +1,7 @@
-lecture 29
+lecture 32
+
+... BUT...
+
+work must resume at some point on the
+unfinished anagramCheck1 (and anagramCheck2),
+of lectures 29, 30, and 31
