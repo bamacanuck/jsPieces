@@ -4,14 +4,15 @@ let str = "that puppy bear";
 
 words = str.split(' ');
 
-// for (let word in (words)) {
+for (i = 0; i < words.length; i++) {
 //   let cap = word.slice(0,1).toUpperCase();
 //   let restWord = word.slice(1);
 //   newWord = cap + restWord;
 //   console.log(cap);  
 // }
 
-console.log(words[0].slice(0,1).toUpperCase());
-console.log(words[0].slice(1));
+console.log(words[i].slice(0,1).toUpperCase());
+console.log(words[i].slice(1));
 
+}
 // let cap = word.slice(0,1).toUpperCase();
