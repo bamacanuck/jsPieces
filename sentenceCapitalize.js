@@ -12,23 +12,21 @@
 
 // consider array slice method
 
-let str = "our puppy bear";
-
-// let words = [];
-
-// words = str.split(' ');
-
-// words[0]
-
-// for (let char in (words[0])) {
-//   char[0]
-// }
-
 function capitalize (str) {
+	words = str.split(' ');
 
-	for (let char in str) {
+	let newArray = [];
 
+	for (i = 0; i < words.length; i++) {
+		let cap = words[i].slice(0,1).toUpperCase();
+		let restWord = words[i].slice(1);
+		newWord = cap + restWord;
+		// console.log(newWord);
+		newArray.push(newWord);
 	}
+
+		let newSentence =	newArray.join(' ');
+		console.log(newSentence);
 }
 
-// input "our puppy bear"
+capitalize("our puppy ! bear!");
