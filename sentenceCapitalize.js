@@ -8,7 +8,7 @@
 // and input of "tomorrow night, maybe" should yield output of
 // "Tomorrow Night, Maybe"
 
-// example function call is with string ""
+// example function call is with string "!!! our puppy ! bear!"
 
 // consider array slice method
 
@@ -29,4 +29,4 @@ function capitalize (str) {
 		console.log(newSentence);
 }
 
-capitalize("our puppy ! bear!");
+capitalize("!!! our puppy ! bear!");
