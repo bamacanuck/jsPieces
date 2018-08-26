@@ -10,3 +10,6 @@
 
 // example function call is with string ""
 
+function capitalize (str) {
+    
+}
