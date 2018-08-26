@@ -11,13 +11,23 @@
 // example function call is with string ""
 
 // consider array slice method
-// and also
-// 
+
+let str = "our puppy bear";
+
+// let words = [];
+
+// words = str.split(' ');
+
+// words[0]
+
+// for (let char in (words[0])) {
+//   char[0]
+// }
 
 function capitalize (str) {
 
 	for (let char in str) {
-		
+
 	}
 }
 
