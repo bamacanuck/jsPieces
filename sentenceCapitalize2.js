@@ -11,7 +11,9 @@
 function capitalize (str) {
     let newVersion = str.[0].toUpperCase();
 
-
+    for ( i of str; i < str.length; i++) {
+        
+    }
 }
 
 
