@@ -8,19 +8,20 @@
 // and input of "tomorrow night, maybe" should yield output of
 // "Tomorrow Night, Maybe"
 
-// function capitalize (str) {
-//     let newVersion = str.[0].toUpperCase();
+function capitalize (str) {
+    let newVersion = str.[0].toUpperCase();
 
 
-// }
+}
 
 
 
 // (below) a quick 'side exercise' - for conformation
-const listDown = (str) => {
-    for (char of str) {
-        console.log(char + "\n");
-    }
-  };
+//
+// const listDown = (str) => {
+//     for (char of str) {
+//         console.log(char + "\n");
+//     }
+//   };
 
-listDown ("Shane");
+// listDown ("Shane");
