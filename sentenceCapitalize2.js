@@ -9,14 +9,21 @@
 // "Tomorrow Night, Maybe"
 
 function capitalize (str) {
-    let newVersion = str.[0].toUpperCase();
+    let newVersion = str[0].toUpperCase();
 
-    for ( i of str; i < str.length; i++) {
-        
+    for (let i = 1; i < str.length; i++) {
+        if (str[i - 1] === ' ') {
+            newVersion = newVersion + (str[i].toUpperCase());
+        }
+        else {
+            newVersion = newVersion + str[i];
+        }
     }
+
+    console.log(newVersion);
 }
 
-
+capitalize ("stephen king's the shining");
 
 // (below) a quick 'side exercise' - for conformation
 //
