@@ -40,6 +40,6 @@
 		}
 
 			console.log(words.join(''));
-// }
+}
 
 capitalize("!!! our puppy ! bear!");
