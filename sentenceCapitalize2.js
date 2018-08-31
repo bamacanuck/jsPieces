@@ -8,3 +8,6 @@
 // and input of "tomorrow night, maybe" should yield output of
 // "Tomorrow Night, Maybe"
 
+function capitalize (str) {
+    
+}
