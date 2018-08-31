@@ -25,6 +25,32 @@ function capitalize (str) {
 
 capitalize ("stephen king's the shining");
 
+// well-commented version below, and a side exercise, further down
+
+
+function capitalize (str) {
+    // start with default capitalization for first character
+    let newVersion = str[0].toUpperCase();
+
+    // begin iterating with second character (str[1])
+    for (let i = 1; i < str.length; i++) {
+        // if char to immediate left of this char
+        // is a space
+        if (str[i - 1] === ' ') {
+            // capitalize the current char and add it to
+            // newVersion
+            newVersion = newVersion + (str[i].toUpperCase());
+        }
+        else {
+            // otherwise, add it without capitalizing
+            newVersion = newVersion + str[i];
+        }
+    }
+
+    console.log(newVersion);
+}
+
+
 // (below) a quick 'side exercise' - for conformation
 //
 // const listDown = (str) => {
