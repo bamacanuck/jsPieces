@@ -4,6 +4,8 @@ by Grider (both so, in fact, work)
 
 ... BUT ALSO...
 
+************NOTE************
+
 work must resume at some point on the
 unfinished anagramCheck1 (and anagramCheck2),
 of lectures 29, 30, and 31
