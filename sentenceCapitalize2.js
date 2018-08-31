@@ -25,8 +25,11 @@ function capitalize (str) {
 
 capitalize ("stephen king's the shining");
 
+// =====================================
+
 // well-commented version below, and a side exercise, further down
 
+// =====================================
 
 function capitalize (str) {
     // start with default capitalization for first character
@@ -50,6 +53,7 @@ function capitalize (str) {
     console.log(newVersion);
 }
 
+// =====================================
 
 // (below) a quick 'side exercise' - for conformation
 //
