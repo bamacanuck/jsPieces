@@ -18,5 +18,13 @@
 // '#### '
 // '#####'
 
+function printSteps (int) {
+    let field = "";
+    const pound = "#";
+    let fieldFull = "" + pound.repeat(int);
 
+    console.log(fieldFull);
+}
+
+printSteps(5);
 
