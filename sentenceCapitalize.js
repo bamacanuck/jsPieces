@@ -13,7 +13,7 @@
 // consider array slice method
 
 function capitalize (str) {
-	words = str.split(' ');
+	let words = str.split(' ');
 
 	let newArray = [];
 
