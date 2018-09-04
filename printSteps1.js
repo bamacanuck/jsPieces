@@ -21,9 +21,12 @@
 
 
 function printSteps (int) {
+		// iterate over "rows" equal to int
     for (let i = 0; i < int; i++) {
 				let line = "";
 				
+				// iterate over columns necessary
+				// to be equal to int
 				for (let col = 0; col < int; col++) {
 					if (col <= i) {
 						line = line + "#";
