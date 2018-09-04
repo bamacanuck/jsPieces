@@ -22,14 +22,14 @@
 
 function printSteps (int) {
     for (let i = 0; i < int; i++) {
-				let line = [];
+				let line = "";
 				
 				for (let col = 0; col < int; col++) {
 					if (col <= int) {
-						line.push("#");
+						line = line + "#";
 					}
 					else {
-						line.push(" ");
+						line = line + " ";
 					}
 				}
 			console.log(line);
