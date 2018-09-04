@@ -21,9 +21,13 @@
 
 
 function printSteps (int) {
-    let field = "";
-    const pound = "#";
-    let fieldFull = "" + pound.repeat(int);
+    for (i = 0; i < int; i ++) {
+
+    }
+    
+    // let field = "";
+    // const pound = "#";
+    // let fieldFull = "" + pound.repeat(int);
 
     console.log(fieldFull);
 }
