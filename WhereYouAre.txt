@@ -10,6 +10,6 @@ by Grider (both so, in fact, work)
 
 ************NOTE************
 
-work must resume at some point on the
+work remains to create solutions for the
 unfinished anagramCheck1 (and anagramCheck2),
 of lectures 29, 30, and 31
