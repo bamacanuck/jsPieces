@@ -25,15 +25,15 @@ function printSteps (int) {
 				let line = "";
 				
 				for (let col = 0; col < int; col++) {
-					
+					if (col <= int) {
+						line.push("#");
+					}
+					else {
+						line.push(" ");
+					}
 				}
+			console.log(line);
     }
-    
-    // let field = "";
-    // const pound = "#";
-    // let fieldFull = "" + pound.repeat(int);
-
-    console.log(fieldFull);
 }
 
 printSteps(5);
