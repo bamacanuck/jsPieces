@@ -22,7 +22,9 @@
 
 function printSteps (int) {
     for (i = 0; i < int; i ++) {
-
+				let line = "";
+				
+				for 
     }
     
     // let field = "";
