@@ -25,7 +25,7 @@ function printSteps (int) {
 				let line = "";
 				
 				for (let col = 0; col < int; col++) {
-					if (col <= int) {
+					if (col <= i) {
 						line = line + "#";
 					}
 					else {
@@ -36,7 +36,7 @@ function printSteps (int) {
     }
 }
 
-printSteps(5);
+printSteps(4);
 
 // some foolish early musings (below)
 //
