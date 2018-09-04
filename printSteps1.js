@@ -21,10 +21,12 @@
 
 
 function printSteps (int) {
-    for (i = 0; i < int; i ++) {
+    for (let i = 0; i < int; i++) {
 				let line = "";
 				
-				for 
+				for (let col = 0; col < int; col++) {
+					
+				}
     }
     
     // let field = "";
