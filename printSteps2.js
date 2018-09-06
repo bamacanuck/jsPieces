@@ -19,5 +19,7 @@
 // '#####'
 
 function printSteps (int) {
-    
+    if (int === 0) {
+			return;
+		}
 }
