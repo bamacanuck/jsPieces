@@ -22,4 +22,7 @@ function printSteps (int) {
     if (int === 0) {
 			return;
 		}
+
+		console.log(int);
+		printSteps(int -1);
 }
