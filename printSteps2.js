@@ -24,11 +24,13 @@ function printSteps (int, row = 0) {
 		}
 
 		const pound = "#";
-    	// let fieldFull = "" + pound.repeat(int);
-		console.log(pound.repeat(int));
-		// here comes RECURSION (below) -
-		// function within same function
-		printSteps(int + 1);
+		// let fieldFull = "" + pound.repeat(int);
+		for (i = 0; i <= int; i++) {
+			console.log(pound.repeat(int));
+			// here comes RECURSION (below) -
+			// function within same function
+			printSteps(int + 1);
+		}
 }
 
 printSteps(5);
