@@ -25,6 +25,7 @@ function printSteps (int, row = 0, epstay = "") {
 
 		if (epstay.length === int) {
 			console.log(epstay);
+			printSteps(int, row + 1);
 		}
 
 		// const pound = "#";
@@ -33,7 +34,7 @@ function printSteps (int, row = 0, epstay = "") {
 		// 	console.log(pound.repeat(int));
 		// 	// here comes RECURSION (below) -
 		// 	// function within same function
-		// 	printSteps(int + 1);
+		// printSteps(row + 1);
 		// }
 }
 
