@@ -26,10 +26,19 @@ function printSteps (int, row = 0, epstay = "") {
 		return;
 	}
 
-	if (epstay.length === int) {
+	if (int === epstay.length) {
 		console.log(epstay);
-		printSteps(int, (row + 1));
+		return printSteps(int, (row + 1));
 	}
+
+	if (epstay.length <= row) {
+		epstay = epstay + "#";
+	}
+	else {
+		epstay = epstay + " ";
+	}
+
+	printSteps (int, row, epstay);
 
 }
 
