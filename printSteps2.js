@@ -46,6 +46,13 @@ printSteps(5);
 
 // =====================================
 
+// better-commented version of above solution
+// (below)
+
+
+
+// =====================================
+
 // solution to display opposite "stairs"
 // (below)
 
