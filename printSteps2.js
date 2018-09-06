@@ -18,8 +18,8 @@
 // '#### '
 // '#####'
 
-function printSteps (int, row) {
-    if (int === 0) {
+function printSteps (int, row = 0) {
+    if (int === row) {
 			return;
 		}
 
@@ -28,7 +28,7 @@ function printSteps (int, row) {
 		console.log(pound.repeat(int));
 		// here comes RECURSION (below) -
 		// function within same function
-		printSteps(int -1);
+		printSteps(int + 1);
 }
 
 printSteps(5);
