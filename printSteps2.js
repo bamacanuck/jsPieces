@@ -18,7 +18,7 @@
 // '#### '
 // '#####'
 
-function printSteps (int) {
+function printSteps (int, row) {
     if (int === 0) {
 			return;
 		}
