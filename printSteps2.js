@@ -23,14 +23,18 @@ function printSteps (int, row = 0, epstay = "") {
 			return;
 		}
 
-		const pound = "#";
-		// let fieldFull = "" + pound.repeat(int);
-		for (i = 0; i <= int; i++) {
-			console.log(pound.repeat(int));
-			// here comes RECURSION (below) -
-			// function within same function
-			printSteps(int + 1);
+		if (epstay.length === int) {
+			console.log(epstay);
 		}
+
+		// const pound = "#";
+		// // let fieldFull = "" + pound.repeat(int);
+		// for (i = 0; i <= int; i++) {
+		// 	console.log(pound.repeat(int));
+		// 	// here comes RECURSION (below) -
+		// 	// function within same function
+		// 	printSteps(int + 1);
+		// }
 }
 
 printSteps(5);
