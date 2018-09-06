@@ -24,5 +24,7 @@ function printSteps (int) {
 		}
 
 		console.log(int);
+		// here comes RECURSION (below) -
+		// function within same function
 		printSteps(int -1);
 }
