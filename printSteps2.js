@@ -18,24 +18,39 @@
 // '#### '
 // '#####'
 
+
+
+
 function printSteps (int, row = 0, epstay = "") {
-    if (int === row) {
-			return;
-		}
+	if (int === row) {
+		return;
+	}
 
-		if (epstay.length === int) {
-			console.log(epstay);
-			printSteps(int, row + 1);
-		}
+	if (epstay.length === int) {
+		console.log(epstay);
+		printSteps(int, (row + 1));
+	}
 
-		// const pound = "#";
-		// // let fieldFull = "" + pound.repeat(int);
-		// for (i = 0; i <= int; i++) {
-		// 	console.log(pound.repeat(int));
-		// 	// here comes RECURSION (below) -
-		// 	// function within same function
-		// printSteps(row + 1);
-		// }
 }
 
 printSteps(5);
+
+// =====================================
+
+// solution to display opposite "stairs"
+// (below)
+
+// function printSteps (int, row) {
+//     if (int === 0) {
+// 			return;
+// 		}
+
+// 		const pound = "#";
+//     	// let fieldFull = "" + pound.repeat(int);
+// 		console.log(pound.repeat(int));
+// 		// here comes RECURSION (below) -
+// 		// function within same function
+// 		printSteps(int -1);
+// }
+
+// printSteps(5);
