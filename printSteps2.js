@@ -18,9 +18,6 @@
 // '#### '
 // '#####'
 
-
-
-
 function printSteps (int, row = 0, epstay = "") {
 	if (int === row) {
 		return;
