@@ -23,8 +23,12 @@ function printSteps (int) {
 			return;
 		}
 
-		console.log(int);
+		const pound = "#";
+    	// let fieldFull = "" + pound.repeat(int);
+		console.log(pound.repeat(int));
 		// here comes RECURSION (below) -
 		// function within same function
 		printSteps(int -1);
 }
+
+printSteps(5);
