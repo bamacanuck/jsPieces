@@ -20,3 +20,13 @@ function reverse (str) {
 // below: example use of function
 
 reverse("everyday");
+
+// ====================================
+
+// below: standard return (non-console-log) version
+
+function reverse (str) {
+    var rev = str.split('').reverse().join('');
+    return rev;
+    // console.log(rev);
+}
