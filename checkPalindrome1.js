@@ -6,7 +6,8 @@
 function palindCheck (str) {
 	let rev = str.split('').reverse().join('');
 	
-	console.log (rev === str);
+  // return (rev === str);
+  console.log (rev === str);
 
   // if (str === rev) {
 	// 	console.log(true);
@@ -40,7 +41,8 @@ palindCheck("abbc");
 function palindCheck (str) {
 	let rev = str.split('').reverse().join('');
 	
-	return (rev === str);
+  return (rev === str);
+  // console.log (rev === str);
 
   // if (str === rev) {
 	// 	console.log(true);
