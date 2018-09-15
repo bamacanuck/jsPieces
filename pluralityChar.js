@@ -39,7 +39,34 @@ function pluralityChar (str) {
 
 pluralityChar ("ccABBBAcc");
 
-// above: 
+// above:
+
+
+// ====================================
+
+// below: standard return (non-console-log) version
+
+function pluralityChar (str) {
+	const charObj = {};
+	let most = 0;
+	let mostChar = '';
+
+  for (let char of str) {
+    charObj[char] = charObj[char] + 1 || 1;
+	}
+
+	// console.log(charObj);
+
+	for (let char in charObj) {
+		if (charObj[char] > most) {
+			most = charObj[char];
+			mostChar = char;
+			// console.log(char + ":" + charObj[char]);
+		}
+	}
+
+	return(mostChar + " : " + most);
+}
 
 // =====================================
 

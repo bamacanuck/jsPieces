@@ -47,7 +47,6 @@ function reverseInt (int) {
     return (rev);
 }
 
-
 // =====================================
 
 // lingering curiosity: parseInt couldn't just be included at tail
