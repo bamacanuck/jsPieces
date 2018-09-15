@@ -12,7 +12,7 @@
 // example function call below is with int -0000068453
 
 function reverseInt (int) {
-    rev = int.toString().split('').reverse().join('');
+    let rev = int.toString().split('').reverse().join('');
     rev = parseInt(rev);
     rev = (rev * (Math.sign(int)));
     console.log(rev);
@@ -35,6 +35,18 @@ reverseInt(-0000068453);
 // ONE SUCH BUG...
 // reverseInt(-000000000001000000000000000000068453) yields
 // -42, for instance
+
+// ====================================
+
+// below: standard return (non-console-log) version
+
+function reverseInt (int) {
+    let rev = int.toString().split('').reverse().join('');
+    rev = parseInt(rev);
+    rev = (rev * (Math.sign(int)));
+    return (rev);
+}
+
 
 // =====================================
 
