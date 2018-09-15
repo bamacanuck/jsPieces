@@ -32,3 +32,20 @@ function palindCheck (str) {
 
 palindCheck("abba");
 palindCheck("abbc");
+
+// ====================================
+
+// below: standard return (non-console-log) version
+
+function palindCheck (str) {
+	let rev = str.split('').reverse().join('');
+	
+	return (rev === str);
+
+  // if (str === rev) {
+	// 	console.log(true);
+  // }
+  // else {
+	// 	console.log(false);
+  // }
+}
