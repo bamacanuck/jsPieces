@@ -38,6 +38,22 @@ function palindCheck (str) {
 palindCheck("abba");
 palindCheck("abbc");
 
+// ====================================
+
+// below: standard return (non-console-log) version
+// NOT yet done/correct
+
+function palindCheck (str) {
+  let rev = str.split('');
+
+  rev.every((char, i) => {
+    console.log(rev[i] === rev[str.length - i - 1]);
+  });
+
+  return rev;
+
+}
+
 
 // =====================================
 
