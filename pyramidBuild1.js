@@ -17,6 +17,8 @@
 
 function pyramidBuild (n) {
     for (let row = 0; row < n; n++) {
+        let level = "";
+
         
     }
 }
