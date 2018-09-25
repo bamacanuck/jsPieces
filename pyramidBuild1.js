@@ -15,6 +15,6 @@
 // yields just
 // '#'
 
-function pyramidBuild () {
-    
+function pyramidBuild (n) {
+    for (let row = 0; row < n;  )
 }
