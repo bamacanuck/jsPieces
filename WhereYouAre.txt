@@ -15,4 +15,4 @@ by Grider (both so, in fact, work)
 
 work remains to create solutions for the
 unfinished anagramCheck1 (and anagramCheck2),
-of lectures 29, 30, and 31
+of lectures 29, 30, and 31checking
