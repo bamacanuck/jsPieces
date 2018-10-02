@@ -15,3 +15,25 @@
 // yields just
 // '#'
 
+function printSteps (int, row = 0, epstay = "") {
+	if (int === row) {
+		return;
+	}
+
+	if (int === epstay.length) {
+		console.log(epstay);
+		return printSteps(int, (row + 1));
+	}
+
+	if (epstay.length <= row) {
+		epstay = epstay + "#";
+	}
+	else {
+		epstay = epstay + " ";
+	}
+
+	printSteps (int, row, epstay);
+
+}
+
+printSteps(5);

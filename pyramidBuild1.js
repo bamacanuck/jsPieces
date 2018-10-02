@@ -15,6 +15,15 @@
 // yields just
 // '#'
 
-function pyramidBuild () {
-    
+function pyramidBuild (int) {
+    for (let row = 0; row < int; int++) {
+        let level = "";
+
+        for (let col = 0; col < (2*int)-1; col++) {
+            const mid = Math.floor(((2 *int) - 1)/ 2);
+            
+        }
+    }
 }
+
+pyramidBuild (5);
