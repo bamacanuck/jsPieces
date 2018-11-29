@@ -9,12 +9,12 @@ function palindCheck (str) {
   
   let cleanArr = cleanStr.split('');
 
-  console.log (cleanArr.every((char, i) => {
-    return char === cleanStr[str.length - i - 1];
-  }));
+  // console.log (cleanArr.every((char, i) => {
+  //   return char === cleanStr[str.length - i - 1];
+  // }));
 
-  return cleanArr.every((char, i) => {
-    return char === cleanStr[str.length - i - 1];
+  cleanArr.every((char, i) => {
+    return char === cleanStr[cleanStr.length - i - 1];
   });
 
 }
