@@ -28,6 +28,27 @@ function reverse (str) {
 // rev + str[i]
 
 // =====================================
+// below: "my DUH explainer" 
+// =====================================
+
+// function reverse (str) {
+//     let rev = "";
+//     // for (char of str) {
+//     //     rev = char + rev;
+//     // }
+
+//     console.log(str[0]);
+//     rev = str[0] + rev;
+//     console.log(rev);
+//     console.log(str[1]);
+//     rev = str[1] + rev;
+//     console.log(rev);
+//     console.log(str[2]);
+//     rev = str[2] + rev;
+
+//     console.log(rev);
+//     // return rev;
+// }
 
 // =====================================
 // or... in ES6, below
