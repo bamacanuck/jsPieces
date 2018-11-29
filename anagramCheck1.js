@@ -41,12 +41,15 @@ function anagramCheck1 (strA, strB) {
 	const strAMap = charMapper(strA);
 	const strBMap = charMapper(strB);
 	if (Object.keys(strAMap).length !== Object.keys(strBMap).length {
-		// return true;
+		return false;
 		console.log("false");
 	}
 
 	for (let char in strAMap) {
-		if (strAMap[char] !== strBMap[char]);
+		if (strAMap[char] !== strBMap[char]) {
+			return false;
+			console.log("false");
+		}
 	}
 };
 
