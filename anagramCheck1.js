@@ -19,7 +19,7 @@ function charMapper (str) {
 	// RegExp work to get rid of spaces, punctuation,
 	// and make letter case uniform (lower case)
 	let cleanedStr = str.replace(/[^\w]/g, "").toLowerCase();
-	
+
 	for (let x of cleanedStr) {
 		charMap[x] = (charMap[x] + 1 || 1);
 		console.log(charMap[x]);
@@ -27,6 +27,7 @@ function charMapper (str) {
 
 	// console.log(charMap);
 
+	console.log(charMap);
 	return charMap;
 
 	// console.log(str);
@@ -36,30 +37,30 @@ function charMapper (str) {
 	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-// charMapper("zZz.sSs.aa");
+charMapper("aba");
 
-function anagramCheck1 (strA, strB) {
-	// like in char-plurality solution, build new
-	// objects to hold the involved characters
-	const strAMap = charMapper(strA);
-	const strBMap = charMapper(strB);
-	if ((Object.keys(strAMap).length) !== (Object.keys(strBMap).length)) {
-		console.log("false");
-		return false;
-	}
+// function anagramCheck1 (strA, strB) {
+// 	// like in char-plurality solution, build new
+// 	// objects to hold the involved characters
+// 	const strAMap = charMapper(strA);
+// 	const strBMap = charMapper(strB);
+// 	if ((Object.keys(strAMap).length) !== (Object.keys(strBMap).length)) {
+// 		console.log("false");
+// 		return false;
+// 	}
 
-	for (let char in strAMap) {
-		if (strAMap[char] !== strBMap[char]) {
-			console.log("false");
-			return false;
-		}
-	}
+// 	for (let char in strAMap) {
+// 		if (strAMap[char] !== strBMap[char]) {
+// 			console.log("false");
+// 			return false;
+// 		}
+// 	}
 
-	// console.log("true");
-	return true;
-};
+// 	// console.log("true");
+// 	return true;
+// };
 
-anagramCheck1("ab", "ba");
+// anagramCheck1("ab", "ba");
 
 // }
 
