@@ -44,9 +44,8 @@ function anagramCheck1 (strA, strB) {
 		// return true;
 		console.log("false");
 	}
-	else {
-		
-	}
+
+	
 };
 
 anagramCheck1("abba", "baab");
