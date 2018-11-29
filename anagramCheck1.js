@@ -45,8 +45,7 @@ function anagramCheck1 (strA, strB) {
 		console.log("false");
 	}
 	else {
-		// return false;
-		console.log("false");
+		
 	}
 };
 
