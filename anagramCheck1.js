@@ -18,8 +18,9 @@ function charMapper (str) {
 
 	// RegExp work to get rid of spaces, punctuation,
 	// and make letter case uniform (lower case)
-	for (let char of str.replace(/[^\w]/g, "").toLowerCase()) {
-		charMap[char] = (charMap[char] + 1) || 1;
+	for (let x of str.replace(/[^\w]/g, "").toLowerCase()) {
+		charMap[x] = (charMap[x] + 1) || 1;
+		console.log(charMap[x]);
 	}
 
 	// console.log(charMap);
