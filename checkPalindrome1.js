@@ -1,5 +1,6 @@
 // challenge: for any given string, write a script that will return
 // true if it's a palindrome (the same with the characters reversed)
+// *** altered to exempt spaces, punctuation, from consideration***
 
 // example function calls are with strings "abba" and "abbc"
 
