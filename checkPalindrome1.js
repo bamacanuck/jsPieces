@@ -12,6 +12,7 @@ function palindCheck (str) {
 	
   // return (rev === str);
   console.log (rev === cleanStr);
+  return (rev === cleanStr);
 
   // if (str === rev) {
 	// 	console.log(true);
