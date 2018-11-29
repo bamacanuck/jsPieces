@@ -10,7 +10,7 @@
 // anagrams('gentleman', 'elegant man') --> False
 
 function anagramCheck (string1, string2) {
-	let string1 = string1.replace(/[^\w]/g, "")
+	let string1 = string1.replace(/[^\w]/g, "") // regex snippet
 }
 
 module.exports = anagramCheck;
