@@ -1,4 +1,6 @@
-lecture 39...
+back to 31...
+
+BUT THEN - lecture 39...
 
 * for lecture 39 solution explanation "run through,"
 * start it at the 11:12 (of 15:50) time mark
@@ -8,11 +10,3 @@ ALSO
 spend some time comparing
 our lecture 33 solution with the one prescribed
 by Grider (both so, in fact, work)
-
-... BUT ALSO...
-
-************NOTE************
-
-work remains to create solutions for the
-unfinished anagramCheck1 (and anagramCheck2),
-of lectures 29, 30, and 31checking
