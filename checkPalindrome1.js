@@ -4,10 +4,13 @@
 // example function calls are with strings "abba" and "abbc"
 
 function palindCheck (str) {
-	let rev = str.split('').reverse().join('');
+  // "clean" the string - remove spaces, punctuation
+  // using regex
+  let cleanStr = str.replace(/[^\w]/g, "").toLowerCase();
+	let rev = cleanStr.split('').reverse().join('');
 	
   // return (rev === str);
-  console.log (rev === str);
+  console.log (rev === cleanStr);
 
   // if (str === rev) {
 	// 	console.log(true);
@@ -32,22 +35,22 @@ function palindCheck (str) {
 // below: example uses of function
 
 palindCheck("abba");
-palindCheck("abbc");
+palindCheck("a man, a plan, a canal, Panama");
 
 // ====================================
 
 // below: standard return (non-console-log) version
 
-function palindCheck (str) {
-	let rev = str.split('').reverse().join('');
+// function palindCheck (str) {
+// 	let rev = str.split('').reverse().join('');
 	
-  return (rev === str);
-  // console.log (rev === str);
+//   return (rev === str);
+//   // console.log (rev === str);
 
-  // if (str === rev) {
-	// 	console.log(true);
-  // }
-  // else {
-	// 	console.log(false);
-  // }
-}
+//   // if (str === rev) {
+// 	// 	console.log(true);
+//   // }
+//   // else {
+// 	// 	console.log(false);
+//   // }
+// }
