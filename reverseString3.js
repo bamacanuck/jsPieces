@@ -5,14 +5,18 @@
 // example function call is with string "weekly"
 
 function reverse (str) {
-    let rev = str.split('').reduce((rev, char) => {
-			return char + rev;
-        }, (''));
-        console.log(rev);
+    console.log(str.split('').reduce((rev, char) => {
+        return char + rev;        
+    }, '')
+    )
+    return (str.split('').reduce((rev, char) => {
+        return char + rev;        
+    }, '')
+    )
 }
 
 // ====================================
 
 // below: example use of function
 
-reverse("cba");
+reverse("weekly");
