@@ -20,7 +20,7 @@ function charMapper (str) {
 	// and make letter case uniform (lower case)
 	for (let char of str.replace(/[^\w]/g, "").toLowerCase()) {
 		charMap[char] = (charMap[char] + 1) || 1;
-	};
+	}
 
 	console.log(charMap);
 
@@ -35,7 +35,7 @@ function charMapper (str) {
 
 charMapper("zZz.sSs.aa");
 
-function anagramCheck (strA, strB) {
+function anagramCheck1 (strA, strB) {
 	// like in char-plurality solution, build new
 	// objects to hold the involved characters
 	const strAMap = charMapper(strA);
@@ -50,7 +50,7 @@ function anagramCheck (strA, strB) {
 	}
 };
 
-anagramCheck("abba", "baab");
+anagramCheck1("abba", "baab");
 
 // }
 
