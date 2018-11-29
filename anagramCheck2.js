@@ -11,6 +11,7 @@
 
 function anagramCheck (string1, string2) {
 
+	str.replace(/[^\w]/g, "")
 }
 
 module.exports = anagramCheck;
