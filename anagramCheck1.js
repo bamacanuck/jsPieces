@@ -22,7 +22,7 @@ function charMapper (str) {
 		charMap[char] = (charMap[char] + 1) || 1;
 	}
 
-	console.log(charMap);
+	// console.log(charMap);
 
 	return charMap;
 
@@ -33,29 +33,27 @@ function charMapper (str) {
 	// 	charObj[char] = charObj[char] + 1 || 1;
 }
 
-charMapper("zZz.sSs.aa");
+// charMapper("zZz.sSs.aa");
 
 function anagramCheck1 (strA, strB) {
 	// like in char-plurality solution, build new
 	// objects to hold the involved characters
 	const strAMap = charMapper(strA);
 	const strBMap = charMapper(strB);
-	if (Object.keys(strAMap).length !== Object.keys(strBMap).length {
-		return false;
-		console.log("false");
+	if (Object.keys(strAMap).length !== Object.keys(strBMap).length) {
+		return false && console.log("false");
 	}
 
 	for (let char in strAMap) {
 		if (strAMap[char] !== strBMap[char]) {
-			return false;
-			console.log("false");
+			return false && console.log("false");
 		}
 	}
 
 	return true && console.log("true");
 };
 
-anagramCheck1("abba", "baab");
+anagramCheck1("abba", "abac");
 
 // }
 
