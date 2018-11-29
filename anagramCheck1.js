@@ -40,7 +40,7 @@ function anagramCheck1 (strA, strB) {
 	// objects to hold the involved characters
 	const strAMap = charMapper(strA);
 	const strBMap = charMapper(strB);
-	if (strAMap === strBMap) {
+	if (Object.keys(strAMap).length === Object.keys(strBMap).length {
 		// return true;
 		console.log("true");
 	}
