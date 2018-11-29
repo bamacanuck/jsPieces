@@ -8,6 +8,9 @@ function reverse (str) {
     console.log(str.split('').reduce((rev, char) => {
         return char + rev;        
     }, '')
+    // just above - args for reduce method are
+    // arrow function, and starting value
+    // (in this case, the empty string)
     )
     return (str.split('').reduce((rev, char) => {
         return char + rev;        
