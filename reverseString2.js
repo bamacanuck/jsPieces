@@ -73,14 +73,14 @@ reverse("tomorrow");
 
 // below: standard return (non-console-log) version
 
-function reverse (str) {
-    var rev = '';
+// function reverse (str) {
+//     var rev = '';
 
-    for (var i = 0; i < str.length; i++) {
-        rev = str[i] + rev;
-        // *** importantly NOT *** as noted below
-        // rev = rev + str[i];
-    } 
-    return rev;
-    // console.log(rev);
-}
+//     for (var i = 0; i < str.length; i++) {
+//         rev = str[i] + rev;
+//         // *** importantly NOT *** as noted below
+//         // rev = rev + str[i];
+//     } 
+//     return rev;
+//     // console.log(rev);
+// }
