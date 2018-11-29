@@ -45,7 +45,9 @@ function anagramCheck1 (strA, strB) {
 		console.log("false");
 	}
 
-	
+	for (let char in strAMap) {
+		if 
+	}
 };
 
 anagramCheck1("abba", "baab");
