@@ -18,8 +18,10 @@ function charMapper (str) {
 
 	// RegExp work to get rid of spaces, punctuation,
 	// and make letter case uniform (lower case)
-	for (let x of str.replace(/[^\w]/g, "").toLowerCase()) {
-		charMap[x] = (charMap[x] + 1) || 1;
+	let cleanedStr = str.replace(/[^\w]/g, "").toLowerCase();
+	
+	for (let x of cleanedStr) {
+		charMap[x] = (charMap[x] + 1 || 1);
 		console.log(charMap[x]);
 	}
 
@@ -53,11 +55,11 @@ function anagramCheck1 (strA, strB) {
 		}
 	}
 
-	console.log("true");
+	// console.log("true");
 	return true;
 };
 
-anagramCheck1("abba", "abab");
+anagramCheck1("ab", "ba");
 
 // }
 
