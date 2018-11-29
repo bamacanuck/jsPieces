@@ -4,10 +4,17 @@
 // example function calls are with strings "abba" and "abbc"
 
 function palindCheck (str) {
-  let rev = str.split('');
+  let cleanStr = str.replace(/[^\w]/g, "")
+    .toLowerCase();
+  
+  let cleanArr = cleanStr.split('');
 
-  rev.every((char, i) => {
-    console.log(rev[i] === rev[str.length - i - 1]);
+  console.log (cleanArr.every((char, i) => {
+    return char === cleanStr[str.length - i - 1];
+  }));
+
+  return cleanArr.every((char, i) => {
+    return char === cleanStr[str.length - i - 1];
   });
 
 }
@@ -35,24 +42,25 @@ function palindCheck (str) {
 
 // below: example uses of function
 
-palindCheck("abba");
 palindCheck("abbc");
+palindCheck("a man, a plan, a canal, Panama");
+palindCheck("abba");
 
 // ====================================
 
 // below: standard return (non-console-log) version
 // NOT yet done/correct
 
-function palindCheck (str) {
-  let rev = str.split('');
+// function palindCheck (str) {
+//   let rev = str.split('');
 
-  rev.every((char, i) => {
-    console.log(rev[i] === rev[str.length - i - 1]);
-  });
+//   rev.every((char, i) => {
+//     console.log(rev[i] === rev[str.length - i - 1]);
+//   });
 
-  return rev;
+//   return rev;
 
-}
+// }
 
 
 // =====================================
