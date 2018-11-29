@@ -46,7 +46,7 @@ function anagramCheck1 (strA, strB) {
 	}
 
 	for (let char in strAMap) {
-		if 
+		if (strAMap[char] !== strBMap[char]);
 	}
 };
 
