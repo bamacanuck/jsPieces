@@ -51,6 +51,8 @@ function anagramCheck1 (strA, strB) {
 			console.log("false");
 		}
 	}
+
+	return true && console.log("true");
 };
 
 anagramCheck1("abba", "baab");
