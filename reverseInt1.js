@@ -30,9 +30,25 @@ reverseInt(-0000068453);
 // lack thereof) of the original given integer - int 
 
 // =====================================
+// below: console.log-heavy version, for clarity/debugging 
+// =====================================
 
-// THERE ARE HIDDEN (AND UNIDENTIFIED) BUGS, OR AT LEAST
-// ONE SUCH BUG...
+// function reverseInt (int) {
+
+//     let rev = int.toString()
+//     console.log(rev);
+//     rev = rev.split("").reverse().join("");
+//     console.log(rev);
+//     rev = parseInt(rev);
+//     console.log(rev);
+//     let revdInt = (rev * (Math.sign(int)));
+
+//     console.log(revdInt);
+// }
+
+// =====================================
+
+// THERE'S AT LEAST ONE HIDDEN (UNIDENTIFIED) BUG...
 // reverseInt(-000000000001000000000000000000068453) yields
 // -42, for instance
 
@@ -40,12 +56,12 @@ reverseInt(-0000068453);
 
 // below: standard return (non-console-log) version
 
-function reverseInt (int) {
-    let rev = int.toString().split('').reverse().join('');
-    rev = parseInt(rev);
-    rev = (rev * (Math.sign(int)));
-    return (rev);
-}
+// function reverseInt (int) {
+//     let rev = int.toString().split('').reverse().join('');
+//     rev = parseInt(rev);
+//     rev = (rev * (Math.sign(int)));
+//     return (rev);
+// }
 
 // =====================================
 
