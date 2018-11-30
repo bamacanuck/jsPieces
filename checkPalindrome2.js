@@ -4,10 +4,13 @@
 // example function calls are with strings "abba" and "abbc"
 
 function palindCheck (str) {
-  let cleanStr = str.replace(/[^\w]/g, "")
-    .toLowerCase();
+  let cleanStr = str.replace(/[^\w]/g, "").toLowerCase();
+
+  // console.log("cleaned:" + cleanStr);
   
   let cleanArr = cleanStr.split('');
+
+  console.log("arrayed:" + cleanArr);
 
   // console.log (cleanArr.every((char, i) => {
   //   return char === cleanStr[str.length - i - 1];
@@ -42,9 +45,9 @@ function palindCheck (str) {
 
 // below: example uses of function
 
-palindCheck("abbc");
+// palindCheck("abbc");
 palindCheck("a man, a plan, a canal, Panama");
-palindCheck("abba");
+// palindCheck("abba");
 
 // ====================================
 
