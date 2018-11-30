@@ -8,6 +8,7 @@ function palindCheck (str) {
   // "clean" the string - remove spaces, punctuation
   // using regex
   let cleanStr = str.replace(/[^\w]/g, "").toLowerCase();
+  // console.log(cleanStr);
 	let rev = cleanStr.split('').reverse().join('');
 	
   // return (rev === str);
@@ -37,7 +38,7 @@ function palindCheck (str) {
 // below: example uses of function
 
 palindCheck("abba");
-palindCheck("a man, a plan, a canal, Panama");
+// palindCheck("a man, a plan, a canal, Panama");
 
 // ====================================
 

@@ -6,23 +6,20 @@
 function palindCheck (str) {
   let cleanStr = str.replace(/[^\w]/g, "").toLowerCase();
 
-  // console.log("cleaned:" + cleanStr);
+  console.log("cleaned:" + cleanStr);
   
-  let cleanArr = cleanStr.split('');
+  let revArr = cleanStr.split('').reverse();
 
-  console.log("arrayed:" + cleanArr);
+  console.log("reverse arrayed:" + revArr);
 
-  console.log (cleanArr.every((char, i) => {
-    return char == cleanStr[str.length - i - 1];
-  }));
-
-  cleanArr.every((char, i) => {
+  console.log (revArr.every((char, i) => {
     return char === cleanStr[cleanStr.length - i - 1];
-  });
+  }));
 
 }
 
-// also... without node console.log action
+// also... without node console.log action,
+// or regex feature
 
 // function palindCheck (str) {
 //   return str.split('').every((char, i) => {
