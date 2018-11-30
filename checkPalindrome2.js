@@ -8,11 +8,11 @@ function palindCheck (str) {
 
   console.log("cleaned:" + cleanStr);
   
-  let revArr = cleanStr.split('').reverse();
+  let strArray = cleanStr.split('');
 
-  console.log("reverse arrayed:" + revArr);
+  console.log("arrayed:" + strArray);
 
-  console.log (revArr.every((char, i) => {
+  console.log (strArray.every((char, i) => {
     return char === cleanStr[cleanStr.length - i - 1];
   }));
 
@@ -42,9 +42,9 @@ function palindCheck (str) {
 
 // below: example uses of function
 
-// palindCheck("abbc");
+palindCheck("abbc");
 palindCheck("a man, a plan, a canal, Panama");
-// palindCheck("abba");
+palindCheck("abba");
 
 // ====================================
 
