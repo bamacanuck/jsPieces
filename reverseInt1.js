@@ -3,6 +3,8 @@
 // WITHOUT extraneous leading zeroes, AND while preserving sign
 // (positive/negative)
 
+//*** APPARENT BUG - noted starting with line 55
+
 // 160 input returns 61 - NOT 061
 // 300 input returns 3 - NOT 003
 // 455 input returns 554
