@@ -8,11 +8,12 @@
 // example function call below is with string "ccABBBAcc"
 
 function pluralityChar (str) {
+	let strClean = str.replace(/[^\w]/g, "").toLowerCase();
 	const charObj = {};
 	let most = 0;
 	let mostChar = '';
 
-  for (let char of str) {
+  for (let char of strClean) {
     charObj[char] = charObj[char] + 1 || 1;
 	}
 
