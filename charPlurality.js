@@ -7,7 +7,7 @@
 
 // example function call below is with string "ccABBBAcc"
 
-function pluralityChar (str) {
+function charPlurality (str) {
 	let strClean = str.replace(/[^\w]/g, "").toLowerCase();
 	const charObj = {};
 	let most = 0;
@@ -38,7 +38,7 @@ function pluralityChar (str) {
 	// "let ... of ..."
 	// of string treated as array
 
-pluralityChar ("ccABBBAccdddddddDD");
+charPlurality ("ccABBBAccdddddddDD");
 
 // above:
 
