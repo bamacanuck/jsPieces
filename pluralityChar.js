@@ -37,7 +37,7 @@ function pluralityChar (str) {
 	// "let ... of ..."
 	// of string treated as array
 
-pluralityChar ("ccABBBAccddddddd");
+pluralityChar ("ccABBBAccdddddddDD");
 
 // above:
 
