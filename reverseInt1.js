@@ -13,7 +13,9 @@
 
 function reverseInt (int) {
     let rev = int.toString().split('').reverse().join('');
+    // console.log("before parseInt: " + rev);
     rev = parseInt(rev);
+    // console.log("after parseInt: " + rev);
     rev = (rev * (Math.sign(int)));
     console.log(rev);
 }
