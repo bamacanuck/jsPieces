@@ -24,7 +24,7 @@ function fizzBuzz (x) {
     }
 };
 
-fizzBuzz(40);
+fizzBuzz(21);
 
 // above: iterate over list of integers -
 // 1 to, and including, the given integer,
