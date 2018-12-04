@@ -15,6 +15,7 @@ function charPlurality (str) {
 
   for (let char of strClean) {
     charObj[char] = charObj[char] + 1 || 1;
+    // console.log(charObj);
 	}
 
 	// console.log(charObj);
@@ -25,7 +26,9 @@ function charPlurality (str) {
 			mostChar = char;
 			// console.log(char + ":" + charObj[char]);
 		}
-	}
+    }
+    
+    console.log(charObj);
 
 	console.log(mostChar + " : " + most);
 }
