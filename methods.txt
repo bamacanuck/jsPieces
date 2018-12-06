@@ -1,9 +1,11 @@
  
  split('')
 
- reverse() - array only
+ reverse() - array
 
- join('') - array only
+ join('') - array
+
+ toString()
 
  ============
 
