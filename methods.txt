@@ -5,4 +5,12 @@
 
  join('') - array only
 
- reduce()
+
+============
+
+ reduce():
+
+ array.reduce(function (total, currentValue, currentIndex, arr), initialValue)
+
+============
+
