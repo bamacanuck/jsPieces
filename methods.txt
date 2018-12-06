@@ -1,0 +1,8 @@
+ 
+ split('')
+
+ reverse() - array only
+
+ join('') - array only
+
+ 
