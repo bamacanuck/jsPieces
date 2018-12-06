@@ -5,7 +5,7 @@
 // and “FizzBuzz” for those integers that are multiples
 // of both three AND five
 
-// example function call below is with integer "40"
+// example function call below is with integer "21"
 
 function fizzBuzz (x) {
     for (let i = 1; i <= x; i++) {
