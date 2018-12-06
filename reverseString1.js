@@ -4,7 +4,7 @@
 
 // example function call is with string "everyday"
 
-function reverse (str) {
+function reverseIt (str) {
     var rev = str.split('').reverse().join('');
     // return rev;
     console.log(rev);
@@ -19,14 +19,14 @@ function reverse (str) {
 
 // below: example use of function
 
-reverse("everyday");
+reverseIt("everyday");
 
 // ====================================
 
 // below: standard return (non-console-log) version
 
-function reverse (str) {
-    var rev = str.split('').reverse().join('');
-    return rev;
-    // console.log(rev);
-}
+// function reverseIt (str) {
+//     var rev = str.split('').reverse().join('');
+//     return rev;
+//     // console.log(rev);
+// }
