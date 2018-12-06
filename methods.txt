@@ -19,3 +19,9 @@ array.reduce(function (total, currentValue, currentIndex, arr), initialValue)
 
 ============
 
+every():
+
+array.every(function (currentValue, index, arr), thisValue)
+
+============
+
