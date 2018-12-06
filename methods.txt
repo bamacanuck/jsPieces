@@ -7,6 +7,10 @@
 
  toString()
 
+ parseInt()
+
+ Math.sign()
+
  ============
 
 str.replace(/[^\w]/g, "").toLowerCase()
