@@ -5,12 +5,17 @@
 
  join('') - array only
 
+ ============
+
+str.replace(/[^\w]/g, "").toLowerCase()
+
+for regex string "cleaning"
 
 ============
 
- reduce():
+reduce():
 
- array.reduce(function (total, currentValue, currentIndex, arr), initialValue)
+array.reduce(function (total, currentValue, currentIndex, arr), initialValue)
 
 ============
 
