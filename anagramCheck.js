@@ -6,8 +6,8 @@
 // character quantities, OF COURSE, counts)
 
 // ('car has', 'a crash') yields True
-// anagrams('ELVIS!', 'Lives?') --> True
-// anagrams('gentleman', 'elegant man') --> False
+// ('ELVIS!', 'Lives?') yields True
+// ('gentleman', 'elegant man') yields False
 
 function anagramCheck (string1, string2) {
 
