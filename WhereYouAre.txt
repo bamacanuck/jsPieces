@@ -10,4 +10,4 @@ ALSO
 
 spend some time comparing
 our lecture 33 solution with the one prescribed
-by Grider (both do, in fact, work)
+by Grider (both do, in fact, work)hmm
